@@ -25,22 +25,22 @@ typedef Achievement =
 class Achievements {
 	public static function init()
 	{
-		createAchievement('friday_night_play',		{name: "HOJE E SEXTA FEIRA MEUS MANOS", description: "jogue na sexta feira e faça um churrasco", hidden: true});
-		createAchievement('week1_nomiss',			{name: "you is the brother", description: "Termine a semana VS Ednaldo Pereira sem errar."});
-		createAchievement('week2_nomiss',			{name: "Olha lá o cara é corno kkkkj", description: "Termine a semana problemas cotidianos sem errar"});
+		createAchievement('friday_night_play',		{name: "Freaky on a Friday Night", description: "Play on a Friday... Night.", hidden: true});
+		createAchievement('week1_nomiss',			{name: "you is the brother", description: "Beat Week 1 on Hard with no Misses."});
+		createAchievement('week2_nomiss',			{name: "uhhhh", description: "Beat Week 2 on Hard with no Misses."});
 		createAchievement('week3_nomiss',			{name: "Call Me The Hitman", description: "Beat Week 3 on Hard with no Misses."});
 		createAchievement('week4_nomiss',			{name: "Lady Killer", description: "Beat Week 4 on Hard with no Misses."});
 		createAchievement('week5_nomiss',			{name: "Missless Christmas", description: "Beat Week 5 on Hard with no Misses."});
 		createAchievement('week6_nomiss',			{name: "Highscore!!", description: "Beat Week 6 on Hard with no Misses."});
 		createAchievement('week7_nomiss',			{name: "God Effing Damn It!", description: "Beat Week 7 on Hard with no Misses."});
-		createAchievement('ur_bad',					{name: "MISSAO IMPOSSIVEL", description: "Termine alguma musica com um rating menor que 20%, praticamente impossivel."});
-		createAchievement('ur_good',				{name: "EITA BIXO SEXO", description: "Termine alguma musica com um rating de 100%"});
-		createAchievement('roadkill_enthusiast',	{name: "Roadkill Enthusiast", description: "Assista os demonios da week4 morrerem 50 vezes, impossivel no mod kkkkkkkkkj", maxScore: 50, maxDecimals: 0});
-		createAchievement('oversinging', 			{name: "Sem Parar", description: "Fique 10 segundos com a mesma nota pressionada"});
-		createAchievement('hype',					{name: "You is the sister", description: "Termine a Musica enquanto canta"});
-		createAchievement('two_keys',				{name: "DESBANIDO", description: "Termine a Musica Banido 2, uma tarefa extremamente dificil"});
-		createAchievement('toastie',				{name: "5 JOGOS PARA PC FRACO ATUALIZADO 2018", description: "coloque todas as configurações de performance no minimo e depois enfie o pc naquele lugar kkkkkkk"});
-		createAchievement('debugger',				{name: "hackerman 2.0", description: "Termine a musica teste.", hidden: true});
+		createAchievement('ur_bad',					{name: "What a Funkin' Disaster!", description: "Complete a Song with a rating lower than 20%."});
+		createAchievement('ur_good',				{name: "Perfectionist", description: "Complete a Song with a rating of 100%."});
+		createAchievement('roadkill_enthusiast',	{name: "Roadkill Enthusiast", description: "Watch the Henchmen die 50 times.", maxScore: 50, maxDecimals: 0});
+		createAchievement('oversinging', 			{name: "Oversinging Much...?", description: "Sing for 10 seconds without going back to Idle."});
+		createAchievement('hype',					{name: "You is the sister", description: "Finish a Song without going back to Idle."});
+		createAchievement('two_keys',				{name: "Just the Two of Us", description: "Finish a Song pressing only two keys."});
+		createAchievement('toastie',				{name: "Toaster Gamer", description: "Have you tried to run the game on a toaster?"});
+		createAchievement('debugger',				{name: "Debugger", description: "Beat the \"Test\" Stage from the Chart Editor.", hidden: true});
 		
 		//dont delete this thing below
 		_originalLength = _sortID + 1;
