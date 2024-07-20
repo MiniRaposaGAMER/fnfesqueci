@@ -85,7 +85,7 @@ class LoadingState extends MusicBeatState
 		#if PSYCH_WATERMARKS // PSYCH LOADING SCREEN
 		var bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.setGraphicSize(Std.int(FlxG.width));
-		bg.color = 0xFFD16FFF;
+		bg.color = 0xFFFFA500;
 		bg.updateHitbox();
 		add(bg);
 	
